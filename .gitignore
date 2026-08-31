@@ -1,0 +1,10 @@
+# future simulation/tooling artifacts
+__pycache__/
+*.pyc
+.venv/
+venv/
+results/raw/
+logs/
+*.out
+.DS_Store
+.ipynb_checkpoints/

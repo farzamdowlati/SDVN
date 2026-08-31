@@ -1,0 +1,332 @@
+{
+  "sdvn-control-plane": {
+    "success": true,
+    "data": {
+      "web": [
+        {
+          "title": "Load Balancing Algorithm for Migrating Switches in ...",
+          "url": "https://www.techscience.com/cmc/v67n1/41207/html",
+          "description": "We have discussed the load balancing algorithm based on migrating switches in Software-Defined Vehicular Networks. We present an analysis that can ...",
+          "position": 1
+        },
+        {
+          "title": "Distributed control plane for software-defined networks",
+          "url": "https://dl.acm.org/doi/10.1145/2675743.2771835",
+          "description": "In this paper, we propose a methodology for both vertical and horizontal scaling of the distributed control plane that is capable of improving the ...",
+          "position": 2
+        },
+        {
+          "title": "A Multi-Area Software-Defined Vehicular Network Control ...",
+          "url": "https://www.mdpi.com/2076-3417/15/10/5545",
+          "description": "by H Li · 2025 · Cited by 3 — SDVN traffic prediction can provide a basis for judging the network load balancing when all urban road vehicles are connected to the network in the future .",
+          "position": 3
+        },
+        {
+          "title": "Software-defined computing-aware routing mechanism for ...",
+          "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14060/1406039/Software-defined-computing-aware-routing-mechanism-for-vehicular-networks/10.1117/12.3102206.full",
+          "description": "[by Z Tian · 2026] This paper proposes a computing-aware routing mechanism based on Software Defined Networking (SDN) to address the computing resource bottleneck ...",
+          "position": 4
+        },
+        {
+          "title": "Handover and Load Balancing for Distributed Network ...",
+          "url": "https://inria.hal.science/hal-01849907/preview/handover-load-balancing%282%29.pdf",
+          "description": "by A Kaul · 2018 · Cited by 18 — Our preliminary experiments show D2-ITS' ability to seamlessly handover control of vehicles as they move. Index Terms—intelligent transport systems, software ...",
+          "position": 5
+        },
+        {
+          "title": "Load-balancing routing in software defined networks with ...",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1389128618302238",
+          "description": "by H Wang · 2018 · Cited by 65 — One key challenge in the distributed control plane is the potential controller load imbalance caused by traffic dynamics. necessary to achieve load balancing ...",
+          "position": 6
+        },
+        {
+          "title": "A Hierarchical Routing Scheme With Load Balancing in ...",
+          "url": "https://ieeexplore.ieee.org/iel7/6287639/8274985/08558591.pdf",
+          "description": "by Y Gao · 2018 · Cited by 40 — The control plane is mainly a central controller managing the whole network operation, and the data plane includes BSs, vehicles and links ...",
+          "position": 7
+        },
+        {
+          "title": "A distributed load balancing algorithm for the control plane ...",
+          "url": "https://www.semanticscholar.org/paper/A-distributed-load-balancing-algorithm-for-the-in-Cimorelli-Priscoli/fd8335ac26b185e79636ef7e995bd79fc1d49936",
+          "description": "A distributed load balancing algorithm is proposed with the aim of dynamically balancing the control traffic across a cluster of SDN Controllers, ...",
+          "position": 8
+        }
+      ]
+    }
+  },
+  "dqn-lstm-sdn": {
+    "success": true,
+    "data": {
+      "web": [
+        {
+          "title": "Enhancing QoS for Dynamic Load Balancing in 6G ...",
+          "url": "https://ieeexplore.ieee.org/document/10987235/",
+          "description": "by MA Hechmi · 2024 · Cited by 2 — This paper proposes a hybrid approach combining Deep Q-Learning (DQN), Long Short-Term Memory (LSTM) networks, and Proximal Policy Optimization (PPO) for load ...",
+          "position": 1
+        },
+        {
+          "title": "Load-aware dynamic controller placement based on deep ...",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1389128623003456",
+          "description": "by C Xu · 2023 · Cited by 27 — The SDN-enabled MECCN has strict-latency, load-balancing, and ... Deep reinforcement learning for controller placement in software defined network.",
+          "position": 2
+        },
+        {
+          "title": "Achieving Balanced Load Distribution with Reinforcement ...",
+          "url": "https://www.mdpi.com/2079-9292/10/2/162",
+          "description": "by S Yeo · 2021 · Cited by 40 — In this paper, we propose a reinforcement learning-based switch and controller selection scheme for switch migration, switch-aware reinforcement learning load ...",
+          "position": 3
+        },
+        {
+          "title": "Effective Controller Placement in Software-Defined Internet ...",
+          "url": "https://www.techscience.com/cmc/v81n3/59060/html",
+          "description": "This paper introduces a novel approach using Deep Q-Learning (DQL) to dynamically place controllers in Software-Defined Internet of Things (SD-IoT) environments ...",
+          "position": 4
+        },
+        {
+          "title": "a transformer-based deep q learning approach for dynamic ...",
+          "url": "https://arxiv.org/pdf/2501.12829",
+          "description": "by ET Owusu · 2025 · Cited by 6 — Abstract— This study proposes a novel approach for dynamic load balancing in Software-Defined Networks (SDNs) using a.",
+          "position": 5
+        },
+        {
+          "title": "AN INTELLIGENT LOAD BALANCING STRATEGY TO ...",
+          "url": "https://pphmjopenaccess.com/fejam/article/download/2187/1306/3095",
+          "description": "[Sep 13, 2024] Our module is a Deep Q-Network (DQN) agent, which is a type of deep reinforcement learning agent that combines reinforcement learning (RL) with ...",
+          "position": 6
+        },
+        {
+          "title": "SDN Controller Load Balancing Based On Reinforcement ...",
+          "url": "https://www.scribd.com/document/997390660/SDN-Controller-Load-Balancing-Based-on-Reinforcement-Learning",
+          "description": "This document presents a load balancing mechanism for software-defined networking (SDN) controllers using reinforcement learning to address local overload ...",
+          "position": 7
+        },
+        {
+          "title": "Deep Reinforcement Learning-Based Intelligent Traffic ...",
+          "url": "https://www.informatica.si/index.php/informatica/article/view/8109/4466",
+          "description": "Figure 3 shows the packet loss rate comparison between the DQN-based traffic scheduling method and the traditional static routing and load balancing methods.",
+          "position": 8
+        }
+      ]
+    }
+  },
+  "switch-migration": {
+    "success": true,
+    "data": {
+      "web": [
+        {
+          "title": "A Survey of Load Balancing Approaches Based on Switch ...",
+          "url": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ntw2.70015",
+          "description": "by HR Naji · 2025 · Cited by 4 — This paper first discusses multi-controller load balancing as a key research challenge and then explores switch migration as a solution. A ...",
+          "position": 1
+        },
+        {
+          "title": "Efficient Switch Migration for Controller Load Balancing in ...",
+          "url": "https://cis.temple.edu/~jiewu/research/publications/Publication_files/ITC__Efficient_Switch_Migration_for_Controller_Load_Balancing_in_Software_Defined_Networking.pdf",
+          "description": "The network needs to be divided wisely to balance the load of the controllers. For example, in Fig. 1, there are five SDN switches (A, B,. C, X, and Y ) and ...",
+          "position": 2
+        },
+        {
+          "title": "Prediction-based dual-weight switch migration scheme for ...",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1389128621005946",
+          "description": "by H Zhong · 2022 · Cited by 50 — The SDN controller has three roles: master, equal and slave. Their roles can be changed at any time [12], but only the controller in the master state can manage ...",
+          "position": 3
+        },
+        {
+          "title": "Load Balancing Algorithm for Migrating Switches in ...",
+          "url": "https://www.techscience.com/cmc/v67n1/41207/html",
+          "description": "In this paper, we have proposed a load balancing algorithm based on latency for multiple SDN controllers. It acknowledges the evolving characteristics of real- ...",
+          "position": 4
+        },
+        {
+          "title": "A Survey of Load Balancing Approaches Based on Switch ...",
+          "url": "https://digital-library.theiet.org/doi/full/10.1049/ntw2.70015",
+          "description": "by HR Naji · 2025 · Cited by 4 — This paper first discusses multi‐controller load balancing as a key research challenge and then explores switch migration as a solution. A variety of load ...",
+          "position": 5
+        },
+        {
+          "title": "Efficient Switch Migration for Controller Load Balancing in ...",
+          "url": "https://pure.psu.edu/en/publications/efficient-switch-migration-for-controller-load-balancing-in-softw/",
+          "description": "by R Biswas · 2021 · Cited by 6 — Therefore, a good switch-controller assignment is very important for load balancing the controller and the performance of an SDN datacenter. In this paper ...",
+          "position": 6
+        },
+        {
+          "title": "(PDF) On Load Balancing via Switch Migration in Software- ...",
+          "url": "https://www.researchgate.net/publication/334553906_On_Load_Balancing_via_Switch_Migration_in_Software-Defined_Networking",
+          "description": "Migrating switches from overloaded to underloaded controllers brings flexibility and adaptability to the network but, at the same time, deciding which switches ...",
+          "position": 7
+        },
+        {
+          "title": "An Improved Switch Migration Method-Based Efficient ...",
+          "url": "https://www.igi-global.com/article/an-improved-switch-migration-method-based-efficient-load-balancing-for-multiple-controllers-in-software-defined-networks/326136",
+          "description": "by MA Jiru · 2023 · Cited by 4 — The present work proposed an improved switch migration method (ISMM) for balancing the controller load to migrate the switch from overloaded to under-loaded ...",
+          "position": 8
+        }
+      ]
+    }
+  },
+  "vehicular-controller": {
+    "success": true,
+    "data": {
+      "web": [
+        {
+          "title": "Towards Dynamic Controller Placement in Software ...",
+          "url": "https://www.mdpi.com/1424-8220/20/6/1701",
+          "description": "by S Toufga · 2020 · Cited by 56 — In this paper, we focus on one of the critical architectural elements of SDVN, namely, the SDN Controller Placement, and promote the use of dynamic placement ...",
+          "position": 1
+        },
+        {
+          "title": "Towards Dynamic Controller Placement in Software ...",
+          "url": "https://www.semanticscholar.org/paper/Towards-Dynamic-Controller-Placement-in-Software-Toufga-Abdellatif/461a77a1ff8927a29af43d82361e363116f645ae",
+          "description": "This paper focuses on one of the critical architectural elements of SDVN, namely, the SDN Controller Placement, and promotes the use of dynamic placement ...",
+          "position": 2
+        },
+        {
+          "title": "SDN-enabled vehicular networks: Theory and practice ...",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S2214209622000924",
+          "description": "by J Leon · 2023 · Cited by 16 — SDN divides the control and data plane of the communication while providing central access to the network switches through an SDN Controller. SDN-based ...",
+          "position": 3
+        },
+        {
+          "title": "(PDF) MobiPlace: Mobility-Aware Controller Placement in ...",
+          "url": "https://www.researchgate.net/publication/348299882_MobiPlace_Mobility-Aware_Controller_Placement_in_Software-Defined_Vehicular_Networks",
+          "description": "[May 2, 2021] In this paper, we propose a mobility-aware scheme, named MobiPlace, to address the controller placement problem (CPP) at the Road Side Units ...",
+          "position": 4
+        },
+        {
+          "title": "A General and Practical Framework for Realization of SDN- ...",
+          "url": "https://digitalscholarship.fiu.edu/record/13845/files/FIDC010834.pdf",
+          "description": "by J Leon · 2022 · Cited by 6 — SDN-based vehicular networks (VANETs) can provide a smooth transition from one radio access to another by considering different metrics such as the type of ...",
+          "position": 5
+        },
+        {
+          "title": "SDN Controller Placement in 5G Networks | PDF",
+          "url": "https://www.scribd.com/document/576737000/Article-Review-On-using-SDN-in-5G-the-controller-placement",
+          "description": "This paper discusses using SDN in 5G networks, specifically around the problem of controller placement. It explains that 5G networks will rely on SDN and ...",
+          "position": 6
+        },
+        {
+          "title": "An SDN-Based Vehicular Networking Platform for Mobility- ...",
+          "url": "https://www.mdpi.com/2076-3417/16/7/3553",
+          "description": "by F Antonopoulos · 2026 · Cited by 1 — In the SDN-enabled configuration, the controller monitored vehicle association changes and updated forwarding rules accordingly to maintain service continuity.",
+          "position": 7
+        },
+        {
+          "title": "A General and Practical Framework for Realization of SDN- ...",
+          "url": "https://par.nsf.gov/servlets/purl/10321328",
+          "description": "by JV Leon · 2021 · Cited by 6 — a Controller. SDN-based vehicular networks (VANETs) can provide a smooth transition from one radio access to another by taking into consideration different ...",
+          "position": 8
+        }
+      ]
+    }
+  },
+  "rdqn-network": {
+    "success": true,
+    "data": {
+      "web": [
+        {
+          "title": "Deep Recurrent Q-Learning for Partially Observable MDPs",
+          "url": "https://arxiv.org/abs/1507.06527",
+          "description": "by M Hausknecht · 2015 · Cited by 2998 — To address these shortcomings, this article investigates the effects of adding recurrency to a Deep Q-Network (DQN) by replacing the first post- ...",
+          "position": 1
+        },
+        {
+          "title": "LSTM and DQL for partially observable non-markovian ...",
+          "url": "https://www.reddit.com/r/reinforcementlearning/comments/1jfluum/lstm_and_dql_for_partially_observable/",
+          "description": "[1 year ago] Personally for an unknown, simple POMDP, I'd probably use Recurrent PPO as it's simpler to implement than DRQN and less hyperparameter sensitive ...",
+          "position": 2
+        },
+        {
+          "title": "Deep Recurrent Q-Network (DRQN)",
+          "url": "https://www.emergentmind.com/topics/deep-recurrent-q-network-drqn",
+          "description": "[Dec 19, 2025] Deep Recurrent Q-Network (DRQN) integrates recurrent layers with DQN to enable robust policy learning under partial observability and ...",
+          "position": 3
+        },
+        {
+          "title": "Heterogeneous Task Offloading and Resource Allocations ...",
+          "url": "https://ieeexplore.ieee.org/document/9141290/",
+          "description": "by J Baek · 2020 · Cited by 156 — To deal with partial observability, we apply a deep recurrent Q-network (DRQN) approach to approximate the optimal value functions. The solution ...",
+          "position": 4
+        },
+        {
+          "title": "Simple Reinforcement Learning with Tensorflow Part 6: Partial ...",
+          "url": "https://awjuliani.medium.com/simple-reinforcement-learning-with-tensorflow-part-6-partial-observability-and-deep-recurrent-q-68463e9aeefc",
+          "description": "The recurrent block can feed the hidden state back into itself, thus acting as an augmentation which tells the network what has come before. The ...",
+          "position": 5
+        },
+        {
+          "title": "What can be considered a deep recurrent neural network?",
+          "url": "https://ai.stackexchange.com/questions/11717/what-can-be-considered-a-deep-recurrent-neural-network",
+          "description": "[Apr 8, 2019] I have DQN implementation with only two dense layers. I want to change this into DRQN with the first layer as an LSTM and leave the second dense ...",
+          "position": 6
+        },
+        {
+          "title": "Model-Free Deep Recurrent Q-Network Reinforcement ...",
+          "url": "https://www.mdpi.com/2624-960X/4/4/27",
+          "description": "by T Sogabe · 2022 · Cited by 19 — The DRQN is based on long short-term memory (LSTM) [51,52,53] networks that encode the action-observation history time-series for partially observable ...",
+          "position": 7
+        },
+        {
+          "title": "DRL/README_Algorithms.md at master · Kyushik/DRL",
+          "url": "https://github.com/Kyushik/DRL/blob/master/README_Algorithms.md",
+          "description": "I studied Deep Recurrent Q Network with the paper Deep Recurrent Q-Learning for Partially Observable MDPs. This paper adds recurrency to a DQN by replacing ...",
+          "position": 8
+        }
+      ]
+    }
+  },
+  "ieee-candidate": {
+    "success": true,
+    "data": {
+      "web": [
+        {
+          "title": "A Fuzzy approach for load balancing in Blockchain-based Software ...",
+          "url": "https://ieeexplore.ieee.org/document/9941696/",
+          "description": "Abstract: Software Defined Vehicular Networks (SDVN) are increasingly being considered for vehicular communication sys-tems as they could provide both ...",
+          "position": 1
+        },
+        {
+          "title": "Toward the Design of an Efficient and Secure System Based on the ...",
+          "url": "https://ieeexplore.ieee.org/iel7/6287639/10005208/10092744.pdf",
+          "description": "[May 8, 2023] Qiu, ''A scalable and quick-response software defined vehicular network assisted by mobile edge computing,'' IEEE Commun. Mag., vol. 55, no. 7, ...",
+          "position": 2
+        },
+        {
+          "title": "A Hierarchical Routing Scheme With Load Balancing in Software ...",
+          "url": "https://ieeexplore.ieee.org/iel7/6287639/8274985/08558591.pdf",
+          "description": "[Dec 27, 2018] A Hierarchical Routing Scheme With Load. Balancing in Software Defined Vehicular. Ad Hoc Networks. YANGSHUI GAO 1,2, ZHILONG ZHANG 1,2, DAN ...",
+          "position": 3
+        },
+        {
+          "title": "(PDF) Load Balancing Algorithm for Migrating Switches in Software ...",
+          "url": "https://www.researchgate.net/publication/348442284_Load_Balancing_Algorithm_for_Migrating_Switches_in_Software-defined_Vehicular_Networks",
+          "description": "[Jan 14, 2021] Load Balancing Algorithm for Migrating Switches in Software-Defined Vehicular Networks ... control plane. In addition to the migration, our ...",
+          "position": 4
+        },
+        {
+          "title": "Stochastic Modeling for Intelligent Software-Defined Vehicular Networks",
+          "url": "https://www.mdpi.com/2073-431X/12/8/162",
+          "description": "This survey covers the latest advances in architectures, essential techniques, and solutions for software-defined vehicular networks. 2. We present current ...",
+          "position": 5
+        },
+        {
+          "title": "Load Balancing in the Internet of Vehicles: A Comprehensive Review ...",
+          "url": "https://dl.acm.org/doi/10.1145/3759242",
+          "description": "[Sep 9, 2025] Distributes load in control plane, The stability of the network may be ... Software defined vehicular networks: A comprehensive review.",
+          "position": 6
+        },
+        {
+          "title": "Opti-Route: A Machine Learning-Based Scheme for ...",
+          "url": "https://ieeexplore.ieee.org/iel8/6287639/10820123/11142266.pdf",
+          "description": "[Sep 2, 2025] To ensure stable connection in software-defined vehicular network (SDVN) with low cost, balanced load, and less latency, an optimal solution ...",
+          "position": 7
+        },
+        {
+          "title": "Balancing latency and cost in software-defined vehicular networks using ...",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1084804518301589",
+          "description": "[Aug 15, 2018] Software-defined vehicular network (SDVN) effectively improves programmability and flexibility of VANET through software-defined network ...",
+          "position": 8
+        }
+      ]
+    }
+  }
+}
