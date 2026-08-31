@@ -74,11 +74,11 @@ Tracked per-file; update the table below as nodes complete.
 | 00-outline | done | be95ef0 |
 | 10-foundations | done | bab512c |
 | 20-problem | done | 2c0d389 |
-| 30-methods | done | this commit |
+| 30-methods | done | c2a8842 |
 | 41-sdn-lb-rl | done | e00f413 |
 | 42-sdvn-lb-classical | done | e00f413 (same commit; full-text V read) |
-| 43-dqn-lstm-hybrids | pending | — |
-| 44-cpp-mobility | pending | — |
-| 45-switch-migration | pending | — |
-| 46-proactive-predictive | pending | — |
-| 50-synthesis | pending | — |
+| 43-dqn-lstm-hybrids | done | 5e2c3f5 |
+| 44-cpp-mobility | done | 71b3562 |
+| 45-switch-migration | done | 71b3562 |
+| 46-proactive-predictive | done | 71b3562 |
+| 50-synthesis | done | this commit |

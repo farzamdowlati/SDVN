@@ -25,6 +25,13 @@ Working assumption: **Mininet+SUMO hybrid** for control-plane experiments; justi
   test time) — turns the DRQN robustness finding into our experiment;
   (iii) Double+Dueling recurrent variant as default agent, plain DQN as ablation.
 
+## Evaluation metrics (metric contract — LR node 50)
+- Primary: Jain's fairness index on controller load; p95 packet-in response latency.
+- Guard-rails: migrations per slot (cost), re-migration-within-2T (instability),
+  overload-event count.
+- Novel: LEAD TIME — seconds before an overload event at which the agent acts
+  (falsifies/proves the proactive claim vs reactive baselines B0–B2).
+
 ## Experiment matrix (sketch)
 Traffic density × number of controllers × mobility pattern × agent variant.
 
