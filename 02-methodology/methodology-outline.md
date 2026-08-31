@@ -1,12 +1,12 @@
 # Methodology Outline (design only — no implementation)
 
-## Simulation environment (candidates — decide with supervisor)
-| Option | Pros | Cons |
-|--------|------|------|
-| Mininet + Ryu/ONOS + SUMO traffic gen | Fast, scriptable SDN control plane; SUMO = realistic mobility | Not road-accurate VANET radio |
-| NS-3 + Veins/INET + (SUMO) | Standard VANET fidelity | Steeper; SDN stacks are community add-ons |
-| Custom Python discrete-event sim | Full control over state/action | Re-inventing; credibility risk in defense |
-Working assumption: **Mininet+SUMO hybrid** for control-plane experiments; justify radio abstraction explicitly.
+## Simulation environment — **DECIDED 2026-08-31**
+Abstract discrete-tick Python/NumPy environment fed by SUMO mobility traces
+is the PRIMARY training platform; Mininet demoted to a single validation
+vignette; NS-3 out of scope. Full rationale + measured throughput
+(~14k–36k ticks/s; 24 sim-hours in seconds; emulation ≈4 orders slower for
+RL-scale step budgets): `env-decisions/2026-08-31-abstract-env-vs-mininet.md`
+and spike code `env-decisions/spike_env_bench.py`.
 
 ## Agent design (outline, per Pillar D)
 - Observation: sliding window (k steps) of per-controller load features + zone vehicle counts.
