@@ -19,6 +19,11 @@ Working assumption: **Mininet+SUMO hybrid** for control-plane experiments; justi
   overload-event count.
 - Baselines: least-loaded, threshold-based migration (cf. EASM), vanilla
   memoryless DQN, random.
+- REQUIRED per LR node 30: (i) stacked-window DQN baseline (recent-frames
+  history, no recurrence) — the honest test of the LSTM claim;
+  (ii) observability-masking eval (randomly drop cross-domain telemetry at
+  test time) — turns the DRQN robustness finding into our experiment;
+  (iii) Double+Dueling recurrent variant as default agent, plain DQN as ablation.
 
 ## Experiment matrix (sketch)
 Traffic density × number of controllers × mobility pattern × agent variant.
