@@ -47,7 +47,9 @@ MAPPO-PPO-DDPG forecasts network states proactively (S); attention-LSTM
 controller-load prediction (Liu'23, ACM, S — *title says "Controller Load
 Prediction"!* ⇒ read next, see threads).
 
-**E. Negative result (searched, absent):** no paper found combining
+**E′. Two new V-tier local reads.** (i) **Xiao et al. 2024 (J. Supercomputing; local PDF)** — *deep-learning (LSTM×25 occurrences) controller-load prediction → switch migration* in general SDN, Mininet-validated, reports −16%/−8% migration cost vs time-sharing/distributed-decision baselines: the **pipeline reading (b) exists and is current** — but memory-in-DQN absent, vehicular absent. (ii) **Laclau et al. 2023 (arXiv:2308.13215, V)** — "Predictive Network Configuration for **Software Defined Vehicles**" = in-vehicle Ethernet — a *false friend* by title; excluded from our cluster (recorded in papers-index #19 to prevent future mis-citation).
+
+**F. Negative result (searched, absent):** no paper found combining
 predictive control-plane load balancing + vehicular mobility + learned
 (recurrent) policy. Cluster 43-B pipelines predict radio demand; 45's
 Zhong predicts *link* load for thresholds; 46-D predicts *server* load;

@@ -46,11 +46,13 @@ no mobility), POSCAD (no learning).
 ## 3. Residual risks (what could still kill the gap)
 1. **Temporal-DQN LB (PMC 2024, S)** — title collides with our framing;
    likely data/server-plane. Classify before proposal defense. [HIGH]
-2. **Sadhana'25 online-sequential SDN CP LB (S)** — memoryless but "online";
-   confirm it is not recurrent. [MED]
-3. **Hechmi'24** internals (encoder vs pipeline) unknown until full read;
-   if it is recurrent+control-plane, our §2 wording survives (still not
-   vehicular) but the "DQN+LSTM in CP" phrase must gain a qualifier. [MED]
+2. ~~Sadhana'25 online-sequential~~ **CLOSED** = Kumari et al. IEEE Access 2024
+   (PDF in Papers/, V-scan: online Q-learning, 0× LSTM/recurrent/vehicle). ✔
+3. **Hechmi'24** internals unknown (paywall) BUT Xiao'24 now proves pipeline(b)
+   is a published pattern; §2 wording survives either way (not vehicular). [LOW]
+   3b. NEW **Marwein 2024 = proposal-mandated comparison** (V): hierarchical
+   vehicular LB, MATLAB-analytical, no RL/OpenFlow ⇒ port policy logic as B6
+   + report its published curves as citation-band, not same-simulator numbers.
 4. **Liu'23 attention-LSTM controller-load *prediction*** (node 46 priority):
    if it includes an actuator, reposition contribution as "closing the loop
    in SDVN". [MED — likely low, prediction-only venues]
@@ -65,7 +67,8 @@ no mobility), POSCAD (no learning).
 | B2 | efficiency-trigger (EASM-style) | best classical reactive; adds migration-cost awareness |
 | B3 | memoryless DQN (2103.06579-style triplet RL) | the RL floor our recurrence must beat |
 | B4 | stacked-window DQN | node-30's honest rival (kills LSTM claim if it ties) |
-| B5 | forecast→DQN pipeline (2208.03460 pattern) | RQ0-(b) ablation |
+| B5 | forecast→DQN pipeline (Xiao'24 pattern, V) | RQ0 reading (b) — **proposal-committed main system under O1** |
+| B6 | Marwein-style hierarchical partition (proposal's named reference) | mandated comparison; policy-logic port |
 Ablations: plain DQN vs +Double vs +Dueling vs +LSTM(+GRU optional);
 observability-masking eval (node 30); lead-time metric (node 46).
 

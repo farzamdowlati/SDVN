@@ -33,7 +33,8 @@ cooldown*, not instantaneous set-membership changes.
 | SMDM (Wang'17) | utility | decision-making over candidate pairs, elastic scaling aware | S, cited ≈170 |
 | DHA | load ratio | distributed hoping-style | 2-hop refs (S, cited by CMC'21) |
 | TSSM/improved (Ethilu'23) | threshold | three-stage selection | S |
-| ESCALB (Ali'23) | — | slave-controller allocation focus | S, cited 105 — *verify what it claims* |
+| **TSSM (Lai et al., IEEE TNSM 2022)** | threshold + assistant | **time-sharing**: two controllers sequentially share one switch's load; ONOS-implemented | **V (local PDF)** |
+| ESCALB (Ali'23) | — | slave-controller allocation focus, **IoT multi-domain (NOT vehicular — verified V)** | V (local PDF) |
 | Fractional (AL-Tam'19) | continuous | *fractional* migration — split switch load across controllers | S, cited 47 |
 | Zhong'22 dual-weight | prediction | weight = f(predicted load, distance) | S, cited 50 — *predictive* reactive hybrid |
 (For table: pull survey numbers in 50; Naji'25 IET survey = master list to

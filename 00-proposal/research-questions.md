@@ -5,10 +5,13 @@ Does "DQN+LSTM" mean (a) DQN with LSTM as recurrent state encoder
 (POMDP formulation), or (b) LSTM load *forecaster* feeding a *classic* DQN
 (predict-then-act pipeline)? Recommend (a), with (b) as an ablation.
 
-> **UPDATE 2026-08-31 (LR nodes 30/43): proposed answer = (a)** — recurrent
-> encoder (DRQN lineage; architectural twin arXiv:2605.30630), with (b)
-> (arXiv:2208.03460 pattern) demoted to ablation B5. Evidence in
-> 04-literature-review/43-dqn-lstm-hybrids.md §4. Awaiting supervisor sign-off.
+> **UPDATE 2026-08-31 (approved proposal v05 read): RESOLVED = option O1.**
+> The approved text states reading (b) ("LSTM predicts; DQN decides using
+> predictions"). Literature precedent for (b): Xiao et al. 2024 (V, local PDF).
+> Plan: implement (b) as the *committed* system, run the recurrent encoder (a,
+> DRQN-style — evidence in 04-literature-review/43 §4) as the internal
+> architecture comparison answering proposal-RQ2. No amendment needed.
+> Details: 05-approved-proposal/2026-08-31-proposal-evaluation.md §3a.
 
 **RQ1 (problem):** What characterizes control-plane load imbalance in
 distributed SDVNs, and how does it correlate with vehicle mobility patterns

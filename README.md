@@ -1,6 +1,7 @@
 # Farzam's Thesis
 
-**Title:** Load-Balancing in the Control Plane of Distributed Software-Defined Vehicular Networks using DQN+LSTM
+**Title (official, per approved proposal v05):** Load-Balancing in Distributed SDVN controllers with DQN+LSTM
+**Working/descriptive title:** Load-Balancing in the Control Plane of Distributed Software-Defined Vehicular Networks using DQN+LSTM
 
 **Status:** 🟡 Initiated — scoping & curation phase (no implementation yet)
 **Owner:** Farzam (Software Engineering)
@@ -19,6 +20,7 @@ across the multiple controllers of a **distributed SDVN control plane**.
 | `02-methodology/` | High-level method outline (agent, environment, metrics) — no code |
 | `03-open-questions/` | Things to resolve with supervisor |
 | `04-literature-review/` | Literature review & background study (tree of nodes, see 00-outline.md) |
+| `05-approved-proposal/` | Official approved proposal v05 + evaluation & contradiction adjudication |
 | `references.bib` | Verified BibTeX for anchor papers |
 
 ## GitOps convention

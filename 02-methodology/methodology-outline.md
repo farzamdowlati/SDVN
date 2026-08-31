@@ -1,12 +1,16 @@
 # Methodology Outline (design only — no implementation)
 
-## Simulation environment — **DECIDED 2026-08-31**
-Abstract discrete-tick Python/NumPy environment fed by SUMO mobility traces
-is the PRIMARY training platform; Mininet demoted to a single validation
-vignette; NS-3 out of scope. Full rationale + measured throughput
-(~14k–36k ticks/s; 24 sim-hours in seconds; emulation ≈4 orders slower for
-RL-scale step budgets): `env-decisions/2026-08-31-abstract-env-vs-mininet.md`
-and spike code `env-decisions/spike_env_bench.py`.
+## Simulation environment — **DECIDED 2026-08-31 (refined same day by proposal v05)**
+**TWO-TIER architecture** (reconciles our speed decision with the approved
+text's "Mininet-WiFi + Ryu" commitment; see 05-approved-proposal/§3b):
+- Tier 1 — RL training (hidden layer): abstract discrete-tick Python/NumPy
+  env fed by SUMO/NGSIM mobility (~14k–36k ticks/s; measured, spike code).
+- Tier 2 — validation + proposal-mandated deliverable: trained policies
+  ported to **Mininet-WiFi + Ryu** (802.11p, wmediumd; seed script archived:
+  `env-decisions/mnwifi-validation/vanet-sumo.py`), producing the
+  "Emulation vs Simulation" fidelity chapter the approved form lists as
+  novelty. NS-3 out of scope.
+Full rationale: `env-decisions/2026-08-31-abstract-env-vs-mininet.md`.
 
 ## Agent design (outline, per Pillar D)
 - Observation: sliding window (k steps) of per-controller load features + zone vehicle counts.

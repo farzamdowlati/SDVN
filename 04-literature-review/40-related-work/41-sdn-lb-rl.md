@@ -41,6 +41,8 @@ reward = load balance ± cost. None uses recurrent state; none models vehicles.
 - Constrained RL sync, 2403.08775 (V-abstract): latency constraint +
   value-vs-policy robustness finding (already used in nodes 20/30).
 
+**C′. Newest memoryless-RL anchor — Kumari et al., IEEE Access 2024 (V, local PDF full-scan).** *Optimizing SDN Controller LB Using Online RL*: online Q-learning for switch-to-controller assignment/CPP; term-scan confirms **0× LSTM, 0× recurrent, 0× vehicle** — memoryless and general-SDN. Closes gap-risk (50 §3 #2): does not pre-empt our recurrent claim.
+
 **D. MARL for network LB.** Yao 2022 (S): multi-agent RL for network load
 balancing — one controller per agent is the natural SDVN extension (our
 single-centralized-agent assumption needs a paragraph defending against
