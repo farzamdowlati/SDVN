@@ -71,8 +71,8 @@ Tracked per-file; update the table below as nodes complete.
 
 | Node | Status | Commit |
 |------|--------|--------|
-| 00-outline | done (this file) | pending |
-| 10-foundations | pending | — |
+| 00-outline | done | be95ef0 |
+| 10-foundations | done | this commit |
 | 20-problem | pending | — |
 | 30-methods | pending | — |
 | 41-sdn-lb-rl | pending | — |

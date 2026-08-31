@@ -18,6 +18,7 @@ across the multiple controllers of a **distributed SDVN control plane**.
 | `01-literature/` | Literature map, anchor papers, gap analysis |
 | `02-methodology/` | High-level method outline (agent, environment, metrics) — no code |
 | `03-open-questions/` | Things to resolve with supervisor |
+| `04-literature-review/` | Literature review & background study (tree of nodes, see 00-outline.md) |
 | `references.bib` | Verified BibTeX for anchor papers |
 
 ## GitOps convention
