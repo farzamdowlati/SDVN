@@ -20,6 +20,12 @@ across the multiple controllers of a **distributed SDVN control plane**.
 | `03-open-questions/` | Things to resolve with supervisor |
 | `references.bib` | Verified BibTeX for anchor papers |
 
+## GitOps convention
+- Single source of truth: this local folder (`/Users/farzam/farzams-thesis`).
+- Remote: `https://github.com/farzamdowlati/SDVN` (private, branch `main`).
+- After every meaningful step (doc change, literature pass, decision): commit with a
+  descriptive message and push. No batched mega-commits at the end.
+
 ## Explicit non-goals (for now)
 - No simulations, no model code, no experiment results until the proposal is approved.
 
