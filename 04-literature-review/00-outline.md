@@ -75,8 +75,8 @@ Tracked per-file; update the table below as nodes complete.
 | 10-foundations | done | bab512c |
 | 20-problem | done | 2c0d389 |
 | 30-methods | done | this commit |
-| 41-sdn-lb-rl | pending | — |
-| 42-sdvn-lb-classical | pending | — |
+| 41-sdn-lb-rl | done | e00f413 |
+| 42-sdvn-lb-classical | done | e00f413 (same commit; full-text V read) |
 | 43-dqn-lstm-hybrids | pending | — |
 | 44-cpp-mobility | pending | — |
 | 45-switch-migration | pending | — |
