@@ -25,10 +25,12 @@ review node.
 - **Future work they name:** migration cost and switch–controller distance.
 
 ## 3. The critical finding (why this HELPS us — and hurts them)
-**The paper is called SDVN but simulates no vehicles.** Keyword census of the
-full text: "traffic" 0× in system description (only via iperf load),
-"vehicle" 2× (intro framing + references), SUMO 0×, ns-3 0×, no mobility
-model, no handover events, no road topology. The imbalance they balance is
+> ⚠ Corrected during 2026-09-01 audit: the "traffic: 0×" census was a PDF
+> extraction artifact — the paper writes "trafﬁc" with the ﬁ ligature
+> (normalized count: 14×). The load-bearing conclusion is unchanged and
+> restated: **zero mobility-simulation terms anywhere (SUMO 0×, ns-3 0×,
+> no mobility model, no handover events); evaluation is a static 7-OVS
+> Mininet with iperf-injected load.**
 **artificially injected packet-in load on a static topology** — i.e. plain
 multi-controller SDN LB with a latency threshold.
 Consequences:
