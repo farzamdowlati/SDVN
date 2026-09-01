@@ -8,3 +8,6 @@ logs/
 *.out
 .DS_Store
 .ipynb_checkpoints/
+
+# privacy: personal-data documents never in remote
+05-approved-proposal/assets/*.pdf
