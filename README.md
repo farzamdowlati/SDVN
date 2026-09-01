@@ -25,7 +25,7 @@ across the multiple controllers of a **distributed SDVN control plane**.
 
 ## GitOps convention
 - Single source of truth: this local folder (`/Users/farzam/farzams-thesis`).
-- Remote: `https://github.com/farzamdowlati/SDVN` (private, branch `main`).
+- Remote: `https://github.com/farzamdowlati/SDVN` (public, branch `main`).
 - After every meaningful step (doc change, literature pass, decision): commit with a
   descriptive message and push. No batched mega-commits at the end.
 
