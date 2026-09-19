@@ -1,0 +1,58 @@
+{
+ "B0_static": {
+  "jain_mean": 0.8022899973490416,
+  "jain_p05": 0.5890657324240339,
+  "p95_latency": 3.0,
+  "overload_events": 141.66666666666666,
+  "overload_ticks": 7265.0,
+  "migrations": 0.0,
+  "migration_cost": 0.0,
+  "remigrations": 0.0,
+  "handover_total": 19.613057500324114,
+  "packet_loss_rate": 0.23880266545641665,
+  "drops": 128424.55555555876,
+  "reward_sum": 0.0
+ },
+ "B1_greedy": {
+  "jain_mean": 0.975198463288647,
+  "jain_p05": 0.8392488668488556,
+  "p95_latency": 3.0,
+  "overload_events": 80.33333333333333,
+  "overload_ticks": 10211.666666666666,
+  "migrations": 429.3333333333333,
+  "migration_cost": 2039.6413333333337,
+  "remigrations": 421.3333333333333,
+  "handover_total": 19.613057500324114,
+  "packet_loss_rate": 0.23005692825471946,
+  "drops": 123661.6666666651,
+  "reward_sum": 0.0
+ },
+ "B2_threshold": {
+  "jain_mean": 0.9949376290233685,
+  "jain_p05": 0.9777161438152108,
+  "p95_latency": 3.0,
+  "overload_events": 26.0,
+  "overload_ticks": 10659.0,
+  "migrations": 11.333333333333334,
+  "migration_cost": 54.48933333333332,
+  "remigrations": 2.0,
+  "handover_total": 19.613057500324114,
+  "packet_loss_rate": 0.22922237480027768,
+  "drops": 123212.55555555446,
+  "reward_sum": 0.0
+ },
+ "B3_random": {
+  "jain_mean": 0.8579200050184291,
+  "jain_p05": 0.6655022676745415,
+  "p95_latency": 3.0,
+  "overload_events": 115.66666666666667,
+  "overload_ticks": 8465.0,
+  "migrations": 460.6666666666667,
+  "migration_cost": 2183.1666666666674,
+  "remigrations": 455.3333333333333,
+  "handover_total": 19.613057500324114,
+  "packet_loss_rate": 0.2466668395300447,
+  "drops": 132579.99999999878,
+  "reward_sum": 0.0
+ }
+}

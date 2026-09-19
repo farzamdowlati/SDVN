@@ -120,3 +120,31 @@ LB), #4/#5 (recurrent controller-load prediction), #8 (RDQN for placement).
 3. **Simulation = the actual job:** env skeleton (tick loop, controllers, mobility,
    actuator), baseline catalogue interfaces B0–B6, then DQN+LSTM agent, then train →
    evaluate → Mininet validation.
+
+
+## 6. Full-text verification (V) — 22 of the 30 papers pulled in full, 2026-09-19
+
+Extracted text+figures of the 22 T1 papers now live outside the repo
+(`~/research/thesis-search-2026-09/library/t1/<doi>/{paper.pdf,text.md,images/}`);
+probe counts in `01-literature/fulltext-evidence-2026-09.md`. What the full texts
+add to the abstract-level picture:
+
+1. **No paper in the set uses a recurrent Q-function.** Counting term occurrences
+   across all 22 full texts: `recurrent Q / DRQN / recurrent DQN / R2D2` = **0 hits
+   in every single paper**, while `LSTM/GRU` appears in 10 of them — recurrence is
+   used *exclusively* for forecasting (load/traffic prediction), never as the
+   policy's state encoder. This is the strongest form of the gap claim available at
+   V level and it is now sourced, not asserted.
+2. **POMDP framing is essentially absent.** `partially observable|POMDP` appears in
+   exactly one paper (the TVT MARL paper, 1 occurrence) — i.e. no one models the
+   distributed controller's local-view problem explicitly.
+3. **Metric fragmentation is confirmed**: Jain's index appears in 3 of 22 papers
+   (fuzzy-LSTM joint LB 9×, the IET switch-migration survey 1×, Sensors temporal-DQ 1×);
+   migration count/cost is reported by 8; packet loss appears in the metric
+   vocabulary of none of them explicitly as a controlled quantity.
+4. **Mobility is measured, not controlled**: 86 occurrences in the TVT MARL paper and
+   7-8 in the IoV/OJ-COMS papers, but always as a scenario property (vehicle density /
+   handover management), never as an experimental variable with a scenario matrix.
+5. Consequence for us: the LR gap section can now cite the *absence counts*, and the
+   evaluation chapter must report a metric superset (spec §4) precisely because the
+   field reports disjoint subsets.
