@@ -3,9 +3,13 @@
 **Title (official, per approved proposal v05):** Load-Balancing in Distributed SDVN controllers with DQN+LSTM
 **Working/descriptive title:** Load-Balancing in the Control Plane of Distributed Software-Defined Vehicular Networks using DQN+LSTM
 
-**Status:** 🟡 Initiated — scoping & curation phase (no implementation yet)
+**Status:** 🟡 Method frozen, tier-1 environment running with baselines B0–B3 (calibration in progress; no agent yet)
 **Owner:** Farzam (Software Engineering)
 **Started:** 2026-08-31
+
+## Start here
+New to this project (or returning after a break)? Read **`WALKTHROUGH.md`** first —
+the whole thesis in plain English, from the topic to the current state of the code.
 
 ## What this project is
 A thesis workspace for designing and (later) evaluating a deep reinforcement
@@ -15,9 +19,10 @@ across the multiple controllers of a **distributed SDVN control plane**.
 ## Repository map
 | Path | Purpose |
 |------|---------|
+| `WALKTHROUGH.md` | Plain-English walkthrough of the whole project (read this first) |
 | `00-proposal/` | Title evaluation, concept breakdown, research questions |
 | `01-literature/` | Literature map, anchor papers, gap analysis |
-| `02-methodology/` | High-level method outline (agent, environment, metrics) — no code |
+| `02-methodology/` | Method spec, tier-1 sim (`sim/`), env decision records — no results yet |
 | `03-open-questions/` | Things to resolve with supervisor |
 | `04-literature-review/` | Literature review & background study (tree of nodes, see 00-outline.md) |
 | `05-approved-proposal/` | Official approved proposal v05 + evaluation & contradiction adjudication |
